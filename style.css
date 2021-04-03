@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
 
-.header .more-inf {
+.header__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -145,17 +145,17 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > .delete:hover {
+li > .main__button-remove:hover {
   color: #cf2323;
 }
 
-.delete img {
+.main__button-remove img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.main__button-remove img:hover {
   transform: rotateZ(0);
 }
 
